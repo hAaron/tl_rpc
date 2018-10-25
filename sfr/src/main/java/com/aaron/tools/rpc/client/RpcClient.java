@@ -25,7 +25,6 @@ import io.netty.channel.socket.nio.NioSocketChannel;
  * RPC 客户端（用于发送 RPC 请求）
  *
  * @author huangyong
- * @since 1.0.0
  */
 public class RpcClient extends SimpleChannelInboundHandler<RpcResponse> {
 
