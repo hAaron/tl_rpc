@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.aaron.tools.rpc</groupId>
+		<artifactId>tl_rpc</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>com.aaron.tools.rpc</groupId>
+	<artifactId>sft-server</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>sft-server</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<version.sfr>0.0.1-SNAPSHOT</version.sfr>
+		<version.sfr-api>0.0.1-SNAPSHOT</version.sfr-api>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.aaron.tools.rpc</groupId>
+			<artifactId>sfr</artifactId>
+			<version>${version.sfr}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aaron.tools.rpc</groupId>
+			<artifactId>sfr-sc-api</artifactId>
+			<version>${version.sfr-api}</version>
+		</dependency>
+	</dependencies>
+</project>
