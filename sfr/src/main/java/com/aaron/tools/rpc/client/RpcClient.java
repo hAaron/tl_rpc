@@ -23,7 +23,7 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 
 /**
  * RPC 客户端（用于发送 RPC 请求）
- *
+ * test
  * @author huangyong
  */
 public class RpcClient extends SimpleChannelInboundHandler<RpcResponse> {
